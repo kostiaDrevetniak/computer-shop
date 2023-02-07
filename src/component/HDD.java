@@ -14,6 +14,9 @@ public class HDD extends Storage {
         this.formFactor = formFactor;
     }
 
+    public HDD() {
+    }
+
     public int getSpindleRotationSpeed() {
         return spindleRotationSpeed;
     }

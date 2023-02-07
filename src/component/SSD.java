@@ -14,6 +14,9 @@ public class SSD extends Storage {
         this.readSped = readSped;
     }
 
+    public SSD() {
+    }
+
     public int getWriteSped() {
         return writeSped;
     }
