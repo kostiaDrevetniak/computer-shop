@@ -1,6 +1,6 @@
 package component;
 
-public class Processor extends Component{
+public class Processor extends Component {
     private float maxFrequency;
     private byte totalCores;
     private byte totalThreads;

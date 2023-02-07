@@ -1,6 +1,6 @@
 package component;
 
-public class VideoCard extends Component{
+public class VideoCard extends Component {
     private int memorySpeed;
     private byte memorySize;
 
@@ -10,6 +10,9 @@ public class VideoCard extends Component{
         this.price = price;
         this.memorySpeed = memorySpeed;
         this.memorySize = memorySize;
+    }
+
+    public VideoCard() {
     }
 
     public int getMemorySpeed() {
